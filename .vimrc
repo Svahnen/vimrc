@@ -14,6 +14,10 @@ set term=screen-256color
 set mouse=a
 set ttymouse=xterm2
 set noshowmode
+set tabstop=2
+set shiftwidth=0
+set expandtab
+set autoindent
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 map <C-n> :NERDTreeToggle<CR>
 autocmd BufWinEnter * silent! NERDTreeMirror
