@@ -14,7 +14,7 @@ set term=screen-256color
 set mouse=a
 set ttymouse=xterm2
 set noshowmode
-set tabstop=2
+set tabstop=4
 set shiftwidth=0
 set expandtab
 set autoindent
@@ -70,3 +70,5 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+"set path+=/usr/lib/avr/include/
