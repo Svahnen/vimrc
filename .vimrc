@@ -56,6 +56,7 @@ Plug 'w0rp/ale'
 "Plug 'ajh17/VimCompletesMe'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'github/copilot.vim'
 
 " Initialize plugin system
 call plug#end()
